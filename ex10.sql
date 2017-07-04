@@ -1,0 +1,1 @@
+SELECT db_apoplavs.film.title AS 'Title', db_apoplavs.film.summary AS 'Summary', db_apoplavs.film.prod_year FROM db_apoplavs.film INNER JOIN genre ON db_apoplavs.film.id_genre = genre.id_genre WHERE genre.id_genre = 'erotic' ORDER BY db_apoplavs.film.prod_year DESC;
