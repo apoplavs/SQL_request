@@ -12,7 +12,7 @@ The table must contain the following in the below order:
 • an id, it must be your table’s primary key, and must be auto-incremented.
 • a login, with the length of a standard student login as maximum size, and by
 default the value must be ’toto’
-• a multiple choice group with only the following possibilities: ’staff’, ’student’ and
+• a multiple choice groups with only the following possibilities: ’staff’, ’student’ and
 ’other’ (see ENUM)
 • a creation_date, with the following format: YYYY-MM-DD
 
